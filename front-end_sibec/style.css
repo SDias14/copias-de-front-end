@@ -1,15 +1,19 @@
 @charset "UTF8";
 
 body{
-    background-color: #EFEFEF;
+    background-color: #EFEFEF;]
+
 }
 
-header{
-    background-color: #296FA7;
-    margin: 0px;
+
+.w3-theme {
+
+    background-color: #296fa7;
     
 }
 
-img{
-    
+header > p {
+    display: inline-block;
+    color: white;
+    margin: 16px 20px 16px 60px;
 }
