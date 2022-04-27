@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+      background-color: hsl(0, 0%, 95%);
+      box-sizing: border-box;
+      height: auto;
+  }
+
+.background{
+    background-color: hsl(0, 0%, 95%);
+    box-sizing: border-box;
+    padding: 170px;
+    justify-content: center;
+    display: flex;
+
+    
+
+}
+
+  .container {
+   
+    background-color:  darkgray;
+    box-sizing: border-box;
+    height: 100%;
+
+    justify-content: center;
+
+
+   
+    width: 900px;
+    
+    
+    
+   
+    }
+
+  .flex-container{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     max-width: 1000px;
+     /* deve-se colocar max-width para ele diminuir de acordo com a tela, assim acontecendo a responsividade.  */
+    margin: 0px auto;
+    flex-flow: row wrap;
+    padding: 40px;
+    
+    
+  
+    
+      
+  }
+  .item1 {
+    max-width: 300px;
+    height: 400px;
+    background-color: #bbb;
+    flex-basis: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 2;
+    background-color: hsl(31, 77%, 52%);
+    
+  }
+
+  .item2 {
+    max-width: 300px;
+    height: 400px;
+    background-color: #bbb;
+    flex-basis: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 2;
+    background-color: hsl(184, 100%, 22%);
+    
+  }
+
+
+  .item3 {
+    max-width: 300px;
+    height: 400px;
+    background-color: #bbb;
+    flex-basis: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 2;
+    background-color: hsl(179, 100%, 13%);
+    
+  }
+
+  .img1{
+      display: flex;
+      flex-wrap: wrap;  
+      flex-direction: column;
+      height: 60px;
+      width: auto;
+      margin: 0px 160px 0px -43px;
+      padding: 0;
+      box-sizing: border-box;
+        
+  }
+   
